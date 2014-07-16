@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A WordPress Image slider based on [Nivo Slider](http://dev7studios.com/plugins/nivo-slider/) to display image slider on post, page or theme.
+A WordPress Image slider based on Nivo Slider to display image slider on post, page or theme.
 
 == Description ==
 
