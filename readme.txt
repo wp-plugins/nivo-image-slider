@@ -7,11 +7,11 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A WordPress Image slider based on Nivo Slider to display image slider on post, page or theme.
+A WordPress Image slider based on [Nivo Slider](http://dev7studios.com/plugins/nivo-slider/) to display image slider on post, page or theme.
 
 == Description ==
 
-A WordPress Image slider based on Nivo Slider to display image slider on post, page or theme. It's an easy, simple & responsive slider, which looks awesome in every single theme.
+A WordPress Image slider based on [Nivo Slider](http://dev7studios.com/plugins/nivo-slider/) to display image slider on post, page or theme. It's an easy, simple & responsive slider, which looks awesome in every single theme.
 
 Just create your slides from the Slider menu & paste the following shortcode where you want to display this slider:
 
@@ -42,7 +42,7 @@ caption="" to add caption to slide like this
 
 `[nivoslides image_link='' alt='' caption='']`
 
-Here is a complete example of NIVO Slider with ten image and bark theme.
+Here is a complete example of [Nivo Slider](http://dev7studios.com/plugins/nivo-slider/) with ten image and bark theme.
 
 `[nivo-slider id='unique-2' theme='dark'][nivoslides image_link='http://lorempixel.com/400/200/sports/1' caption='This is caption one'][nivoslides image_link='http://lorempixel.com/400/200/sports/2' caption='This is caption two'][nivoslides image_link='http://lorempixel.com/400/200/sports/3' caption='This is caption three'][nivoslides image_link='http://lorempixel.com/400/200/sports/4' caption='This is caption four'][nivoslides image_link='http://lorempixel.com/400/200/sports/5' caption='This is caption five'][nivoslides image_link='http://lorempixel.com/400/200/sports/6' caption='This is caption six'][nivoslides image_link='http://lorempixel.com/400/200/sports/7' caption='This is caption seven'][nivoslides image_link='http://lorempixel.com/400/200/sports/8' caption='This is caption eight'][/nivo-slider]</code>`
 
