@@ -6,8 +6,19 @@
  * Version: 1.0
  * Author: Sayful Islam
  * Author URI: http://www.sayful.net
+ * Text Domain: nivoslider
+ * Domain Path: /languages/
  * License: GPL2
 */
+
+/**
+ * Load plugin textdomain.
+ */
+function sis_nivoslider_load_textdomain() {
+  load_plugin_textdomain( 'nivoslider', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+}
+add_action( 'plugins_loaded', 'sis_nivoslider_load_textdomain' );
+
 /* Adding Latest jQuery from Wordpress plugin */
 function sis_nivoslider_plugin_scripts() {
 	wp_enqueue_script('jquery');

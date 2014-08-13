@@ -1,9 +1,9 @@
 === Nivo Image Slider ===
 Contributors: sayful
 Tags: slider, image slider, nivo slider, images, wordpress slider, jquery slider, responsive
-Requires at least: 2.9
-Tested up to: 3.9.1
-Stable tag: 1.0
+Requires at least: 3.0
+Tested up to: 3.9.2
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,7 +42,7 @@ caption="" to add caption to slide like this
 
 `[nivoslides image_link='' alt='' caption='']`
 
-Here is a complete example of [Nivo Slider](http://dev7studios.com/plugins/nivo-slider/) with ten image and bark theme.
+Here is a complete example of Nivo Slider with ten image and dark theme.
 
 `[nivo-slider id='unique-2' theme='dark'][nivoslides image_link='http://lorempixel.com/400/200/sports/1' caption='This is caption one'][nivoslides image_link='http://lorempixel.com/400/200/sports/2' caption='This is caption two'][nivoslides image_link='http://lorempixel.com/400/200/sports/3' caption='This is caption three'][nivoslides image_link='http://lorempixel.com/400/200/sports/4' caption='This is caption four'][nivoslides image_link='http://lorempixel.com/400/200/sports/5' caption='This is caption five'][nivoslides image_link='http://lorempixel.com/400/200/sports/6' caption='This is caption six'][nivoslides image_link='http://lorempixel.com/400/200/sports/7' caption='This is caption seven'][nivoslides image_link='http://lorempixel.com/400/200/sports/8' caption='This is caption eight'][/nivo-slider]`
 
@@ -89,6 +89,10 @@ Do you have questions or issues with Nivo Images Slider? [Ask for support here.]
 2. Screenshot of Nivo Images Slider on post.
 
 == Changelog ==
+
+= version 1.1 =
+* To make the plugin translation ready.
+* The plugin is transtated to Bengali Language.
 
 = version 1.0 =
 * Implementation of basic functionality.
