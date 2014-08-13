@@ -104,3 +104,7 @@ Do you have questions or issues with Nivo Images Slider? [Ask for support here.]
 == CONTACT ==
 
 [Sayful Islam](http://sayful1.wordpress.com/100-2/)
+
+== Upgrade Notice ==
+
+Upgrade the plugin to get latest feature and faster speed.
