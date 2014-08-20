@@ -22,7 +22,7 @@ add_action( 'plugins_loaded', 'sis_nivoslider_load_textdomain' );
 /* Adding Latest jQuery for Wordpress plugin */
 function sis_nivoslider_plugin_scripts() {
 	wp_enqueue_script('jquery');
-	wp_enqueue_script('sis_nivoslider_script',plugins_url( '/js//jquery.nivo.slider.js' , __FILE__ ),array( 'jquery' ));
+	wp_enqueue_script('sis_nivoslider_script',plugins_url( '/js/jquery.nivo.slider.js' , __FILE__ ),array( 'jquery' ));
 
 	wp_enqueue_style('sis_nivoslider_style',plugins_url( '/css/nivo-slider.css' , __FILE__ ));
 	//Nivo Theme
