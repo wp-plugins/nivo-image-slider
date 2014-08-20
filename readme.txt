@@ -3,7 +3,7 @@ Contributors: sayful
 Tags: slider, image slider, nivo slider, images, wordpress slider, jquery slider, responsive
 Requires at least: 3.0
 Tested up to: 3.9.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,11 +15,15 @@ A WordPress Image slider based on [Nivo Slider](http://dev7studios.com/plugins/n
 
 Just create your slides from the Slider menu & paste the following shortcode where you want to display this slider:
 
-`[all-nivoslider]`
+`[all-nivoslider theme='default|dark|light|bar']`
+
+For example: if you want to add 'light' theme just write as following code
+
+`[all-nivoslider theme='light']`
 
 Or you can paste following to add slider to your theme:
 
-`<?php echo do_shortcode('[all-nivoslider]'); ?>`
+`<?php echo do_shortcode('[all-nivoslider theme='light']'); ?>`
 
 If you want to use multiple slider at diffrent page or post at your theme write the following code
 
@@ -89,6 +93,9 @@ Do you have questions or issues with Nivo Images Slider? [Ask for support here.]
 2. Screenshot of Nivo Images Slider on post.
 
 == Changelog ==
+
+= version 1.2 =
+* A new option has been added to add theme for Slider from custom post type.
 
 = version 1.1 =
 * To make the plugin translation ready.
