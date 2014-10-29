@@ -23,7 +23,7 @@ For example: if you want to add 'light' theme just write as following code
 
 Or you can paste following to add slider to your theme:
 
-`<?php echo do_shortcode('[all-nivoslider theme='light']'); ?>`
+`<?php echo do_shortcode("[all-nivoslider theme='light']"); ?>`
 
 If you want to use multiple slider at diffrent page or post at your theme write the following code
 
