@@ -3,7 +3,7 @@
  * Plugin Name: Nivo Image Slider
  * Plugin URI: http://wordpress.org/plugins/nivo-image-slider/
  * Description: A WordPress plugin to include image slider into your theme.
- * Version: 1.2.1
+ * Version: 1.2.2
  * Author: Sayful Islam
  * Author URI: http://www.sayful.net
  * Text Domain: nivoslider
@@ -89,6 +89,14 @@ function nivoslider_custom_post_type() {
 
 // Hook into the 'init' action
 add_action( 'init', 'nivoslider_custom_post_type', 0 );
+
+/* Move featured image box under title */
+function nivoslider_img_box()
+{
+    remove_meta_box( 'postimagediv', 'slider', 'side' );
+    add_meta_box('postimagediv', __('Upload Slide Image', 'nivoslider'), 'post_thumbnail_meta_box', 'slider', 'normal', 'high');
+}
+add_action('do_meta_boxes', 'nivoslider_img_box');
 
 
 
