@@ -17,7 +17,7 @@ Just create your slides from the Slider menu & paste the following shortcode whe
 
 `[all-nivoslider theme='default|dark|light|bar']`
 
-For example: if you want to add 'light' theme just write as following code
+= For example: if you want to add 'light' theme just write as following code =
 
 `[all-nivoslider theme='light']`
 
