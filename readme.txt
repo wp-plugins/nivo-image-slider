@@ -13,17 +13,21 @@ A WordPress Image slider based on Nivo Slider to display image slider on post, p
 
 A WordPress Image slider based on [Nivo Slider](http://dev7studios.com/plugins/nivo-slider/) to display image slider on post, page or theme. It's an easy, simple & responsive slider, which looks awesome in every single theme.
 
+= Single Slider for a site =
+
 Just create your slides from the Slider menu & paste the following shortcode where you want to display this slider:
 
 `[all-nivoslider theme='default|dark|light|bar']`
 
-= For example: if you want to add 'light' theme just write as following code =
+For example: if you want to add 'light' theme just write as following code
 
 `[all-nivoslider theme='light']`
 
 Or you can paste following to add slider to your theme:
 
 `<?php echo do_shortcode("[all-nivoslider theme='light']"); ?>`
+
+= Multiple Slider for a site =
 
 If you want to use multiple slider at diffrent page or post at your theme write the following code
 
