@@ -46,13 +46,13 @@ caption="" to add caption to slide like this
 
 `[nivoslides image_link='' alt='' caption='']`
 
-Here is a complete example of Nivo Slider with ten image and dark theme.
+= Here is a complete example of Nivo Slider with ten image and dark theme. =
 
 `[nivo-slider id='unique-2' theme='dark'][nivoslides image_link='http://lorempixel.com/400/200/sports/1' caption='This is caption one'][nivoslides image_link='http://lorempixel.com/400/200/sports/2' caption='This is caption two'][nivoslides image_link='http://lorempixel.com/400/200/sports/3' caption='This is caption three'][nivoslides image_link='http://lorempixel.com/400/200/sports/4' caption='This is caption four'][nivoslides image_link='http://lorempixel.com/400/200/sports/5' caption='This is caption five'][nivoslides image_link='http://lorempixel.com/400/200/sports/6' caption='This is caption six'][nivoslides image_link='http://lorempixel.com/400/200/sports/7' caption='This is caption seven'][nivoslides image_link='http://lorempixel.com/400/200/sports/8' caption='This is caption eight'][/nivo-slider]`
 
+Still need help? [Watch this Youtube Video.](http://youtu.be/ZfuD0Phpz-4)
 
-
-<h1>Features</h1>
+= Features =
 
 1. Fully Responsive 
 2. Unlimited Slides
