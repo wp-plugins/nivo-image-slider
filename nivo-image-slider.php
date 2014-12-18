@@ -65,7 +65,7 @@ function nivoslider_custom_post_type() {
 	);
 	$args = array(
 		'label'               => __( 'slider', 'nivoslider' ),
-		'description'         => __( 'Post Type Description', 'nivoslider' ),
+		'description'         => __( 'Custom post for Nivo Image Slider', 'nivoslider' ),
 		'labels'              => $labels,
 		'supports'            => array( 'title', 'editor', 'thumbnail', ),
 		'hierarchical'        => false,
