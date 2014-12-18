@@ -68,20 +68,20 @@ Still need help? [Watch this Youtube Video.](http://youtu.be/ZfuD0Phpz-4)
 
 Installing the plugins is just like installing other WordPress plugins. If you don't know how to install plugins, please review the two options below:
 
-Install by Search
+= Install by Search =
 
 * From your WordPress dashboard, choose 'Add New' under the 'Plugins' category.
 * Search for 'Nivo Image Slider' a plugin will come called 'Nivo Image Slider by Sayful Islam' and Click 'Install Now' and confirm your installation by clicking 'ok'
 * The plugin will download and install. Just click 'Activate Plugin' to activate it.
 
-Install by ZIP File
+= Install by ZIP File =
 
 * From your WordPress dashboard, choose 'Add New' under the 'Plugins' category.
 * Select 'Upload' from the set of links at the top of the page (the second link)
 * From here, browse for the zip file included in your plugin titled 'nivo-image-slider.zip' and click the 'Install Now' button
 * Once installation is complete, activate the plugin to enable its features.
 
-Install by FTP
+= Install by FTP =
 
 * Find the directory titles 'nivo-image-slider' and upload it and all files within to the plugins directory of your WordPress install (WORDPRESS-DIRECTORY/wp-content/plugins/) [e.g. www.yourdomain.com/wp-content/plugins/]
 * From your WordPress dashboard, choose 'Installed Plugins' option under the 'Plugins' category
@@ -93,10 +93,14 @@ Do you have questions or issues with Nivo Images Slider? [Ask for support here.]
 
 == Screenshots ==
 
-1. Screenshot of Nivo Images Slider Shortcode.
-2. Screenshot of Nivo Images Slider on post.
+1. Screenshot of Nivo Images Slider Custom Post.
+2. Screenshot of Nivo Images Slider on Page.
 
 == Changelog ==
+
+= version 1.2.3 =
+* Tested at WordPress Version 4.1.
+* Some small changes in language file.
 
 = version 1.2 =
 * A new option has been added to add theme for Slider from custom post type.
