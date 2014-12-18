@@ -13,6 +13,8 @@ A WordPress Image slider based on Nivo Slider to display image slider on post, p
 
 A WordPress Image slider based on [Nivo Slider](http://dev7studios.com/plugins/nivo-slider/) to display image slider on post, page or theme. It's an easy, simple & responsive slider, which looks awesome in every single theme.
 
+= Single Slider for a site =
+
 Just create your slides from the Slider menu & paste the following shortcode where you want to display this slider:
 
 `[all-nivoslider theme='default|dark|light|bar']`
@@ -24,6 +26,8 @@ For example: if you want to add 'light' theme just write as following code
 Or you can paste following to add slider to your theme:
 
 `<?php echo do_shortcode("[all-nivoslider theme='light']"); ?>`
+
+= Multiple Slider for a site =
 
 If you want to use multiple slider at diffrent page or post at your theme write the following code
 
@@ -46,13 +50,13 @@ caption="" to add caption to slide like this
 
 `[nivoslides image_link='' alt='' caption='']`
 
-Here is a complete example of Nivo Slider with ten image and dark theme.
+= Here is a complete example of Nivo Slider with ten image and dark theme. =
 
 `[nivo-slider id='unique-2' theme='dark'][nivoslides image_link='http://lorempixel.com/400/200/sports/1' caption='This is caption one'][nivoslides image_link='http://lorempixel.com/400/200/sports/2' caption='This is caption two'][nivoslides image_link='http://lorempixel.com/400/200/sports/3' caption='This is caption three'][nivoslides image_link='http://lorempixel.com/400/200/sports/4' caption='This is caption four'][nivoslides image_link='http://lorempixel.com/400/200/sports/5' caption='This is caption five'][nivoslides image_link='http://lorempixel.com/400/200/sports/6' caption='This is caption six'][nivoslides image_link='http://lorempixel.com/400/200/sports/7' caption='This is caption seven'][nivoslides image_link='http://lorempixel.com/400/200/sports/8' caption='This is caption eight'][/nivo-slider]`
 
+Still need help? [Watch this Youtube Video.](http://youtu.be/ZfuD0Phpz-4)
 
-
-<h1>Features</h1>
+= Features =
 
 1. Fully Responsive 
 2. Unlimited Slides
@@ -64,20 +68,20 @@ Here is a complete example of Nivo Slider with ten image and dark theme.
 
 Installing the plugins is just like installing other WordPress plugins. If you don't know how to install plugins, please review the two options below:
 
-Install by Search
+= Install by Search =
 
 * From your WordPress dashboard, choose 'Add New' under the 'Plugins' category.
 * Search for 'Nivo Image Slider' a plugin will come called 'Nivo Image Slider by Sayful Islam' and Click 'Install Now' and confirm your installation by clicking 'ok'
 * The plugin will download and install. Just click 'Activate Plugin' to activate it.
 
-Install by ZIP File
+= Install by ZIP File =
 
 * From your WordPress dashboard, choose 'Add New' under the 'Plugins' category.
 * Select 'Upload' from the set of links at the top of the page (the second link)
 * From here, browse for the zip file included in your plugin titled 'nivo-image-slider.zip' and click the 'Install Now' button
 * Once installation is complete, activate the plugin to enable its features.
 
-Install by FTP
+= Install by FTP =
 
 * Find the directory titles 'nivo-image-slider' and upload it and all files within to the plugins directory of your WordPress install (WORDPRESS-DIRECTORY/wp-content/plugins/) [e.g. www.yourdomain.com/wp-content/plugins/]
 * From your WordPress dashboard, choose 'Installed Plugins' option under the 'Plugins' category
@@ -89,10 +93,14 @@ Do you have questions or issues with Nivo Images Slider? [Ask for support here.]
 
 == Screenshots ==
 
-1. Screenshot of Nivo Images Slider Shortcode.
-2. Screenshot of Nivo Images Slider on post.
+1. Screenshot of Nivo Images Slider Custom Post.
+2. Screenshot of Nivo Images Slider on Page.
 
 == Changelog ==
+
+= version 1.2.3 =
+* Tested at WordPress Version 4.1.
+* Some small changes in language file.
 
 = version 1.2 =
 * A new option has been added to add theme for Slider from custom post type.

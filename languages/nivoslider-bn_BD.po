@@ -8,92 +8,95 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2014-12-18 10:57+0600\n"
+"Last-Translator: \n"
+"Language-Team: Sayful Islam <sayful.islam001@gmail.com>\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bn_BD\n"
 
 #: nivo-image-slider.php:52
 msgctxt "Post Type General Name"
 msgid "Slides"
-msgstr ""
+msgstr "স্লাইডসমূহ"
 
 #: nivo-image-slider.php:53
 msgctxt "Post Type Singular Name"
 msgid "Slide"
-msgstr ""
+msgstr "স্লাইড"
 
 #: nivo-image-slider.php:54
 msgid "Slider"
-msgstr ""
+msgstr "স্লাইডার"
 
 #: nivo-image-slider.php:55
 msgid "Parent Slide:"
-msgstr ""
+msgstr "মূল স্লাইড"
 
 #: nivo-image-slider.php:56
 msgid "All Slides"
-msgstr ""
+msgstr "স্লাইডসমূহ"
 
 #: nivo-image-slider.php:57
 msgid "View Slide"
-msgstr ""
+msgstr "স্লাইড প্রদর্শন"
 
 #: nivo-image-slider.php:58
 msgid "Add New Slide"
-msgstr ""
+msgstr "নতুন আরেকটি স্লাইড"
 
 #: nivo-image-slider.php:59
 msgid "Add New"
-msgstr ""
+msgstr "নতুন আরেকটি"
 
 #: nivo-image-slider.php:60
 msgid "Edit Slide"
-msgstr ""
+msgstr "সম্পাদনা"
 
 #: nivo-image-slider.php:61
 msgid "Update Slide"
-msgstr ""
+msgstr "স্লাইড হালনাগাদ"
 
 #: nivo-image-slider.php:62
 msgid "Search Slide"
-msgstr ""
+msgstr "স্লাইড অনুসন্ধান"
 
 #: nivo-image-slider.php:63
 msgid "Not found"
-msgstr ""
+msgstr "খুজে পাওয়া যায়নি"
 
 #: nivo-image-slider.php:64
 msgid "Not found in Trash"
-msgstr ""
+msgstr "ময়লার ঝুরিতে খুজে পাওয়া যায়নি"
 
 #: nivo-image-slider.php:67
 msgid "slider"
-msgstr ""
+msgstr "স্লাইডার"
 
 #: nivo-image-slider.php:68
-msgid "Post Type Description"
-msgstr ""
+msgid "Custom post for Nivo Image Slider"
+msgstr "নিভো ইমেজ স্লাইডারের জন্য কাস্টম পোস্ট"
 
 #: nivo-image-slider.php:97
 msgid "Upload Slide Image"
-msgstr ""
+msgstr "স্লাইড চিত্র নির্বাচন"
 
 #. Plugin Name of the plugin/theme
 msgid "Nivo Image Slider"
-msgstr ""
+msgstr "নিভো ইমেজ স্লাইডার"
 
 #. Plugin URI of the plugin/theme
 msgid "http://wordpress.org/plugins/nivo-image-slider/"
-msgstr ""
+msgstr "http://wordpress.org/plugins/nivo-image-slider/"
 
 #. Description of the plugin/theme
 msgid "A WordPress plugin to include image slider into your theme."
-msgstr ""
+msgstr "এটি একটি ওয়ার্ডপ্রস প্লাগইন যা ওয়ার্ডপ্রস থিমে ইমেজ স্লাইডার যুক্ত করবে"
 
 #. Author of the plugin/theme
 msgid "Sayful Islam"
-msgstr ""
+msgstr "সাইফুল ইসলাম"
 
 #. Author URI of the plugin/theme
 msgid "http://www.sayful.net"
-msgstr ""
+msgstr "http://www.sayful.net"
