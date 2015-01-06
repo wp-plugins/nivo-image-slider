@@ -54,7 +54,7 @@ caption="" to add caption to slide like this
 
 `[nivo-slider id='unique-2' theme='dark'][nivoslides image_link='http://lorempixel.com/400/200/sports/1' caption='This is caption one'][nivoslides image_link='http://lorempixel.com/400/200/sports/2' caption='This is caption two'][nivoslides image_link='http://lorempixel.com/400/200/sports/3' caption='This is caption three'][nivoslides image_link='http://lorempixel.com/400/200/sports/4' caption='This is caption four'][nivoslides image_link='http://lorempixel.com/400/200/sports/5' caption='This is caption five'][nivoslides image_link='http://lorempixel.com/400/200/sports/6' caption='This is caption six'][nivoslides image_link='http://lorempixel.com/400/200/sports/7' caption='This is caption seven'][nivoslides image_link='http://lorempixel.com/400/200/sports/8' caption='This is caption eight'][/nivo-slider]`
 
-= Still need help? [Watch this Youtube Video.](http://youtu.be/ZfuD0Phpz-4) =
+= Still need help? Watch this Youtube Video. =
 
 https://www.youtube.com/watch?v=ZfuD0Phpz-4
 
