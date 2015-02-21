@@ -1,81 +1,163 @@
-# Copyright (C) 2014 Nivo Image Slider
+# Copyright (C) 2015 Nivo Image Slider
 # This file is distributed under the same license as the Nivo Image Slider package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Nivo Image Slider 1.2.3\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/nivo-image-slider\n"
-"POT-Creation-Date: 2014-12-18 03:31:15+00:00\n"
+"Project-Id-Version: Nivo Image Slider 1.3.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/nivo-image-slider\n"
+"POT-Creation-Date: 2015-02-21 07:55:01+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: nivo-image-slider.php:52
+#: admin/Nivo_Image_Slider_Admin.php:22
 msgctxt "Post Type General Name"
 msgid "Slides"
 msgstr ""
 
-#: nivo-image-slider.php:53
+#: admin/Nivo_Image_Slider_Admin.php:23
 msgctxt "Post Type Singular Name"
 msgid "Slide"
 msgstr ""
 
-#: nivo-image-slider.php:54
+#: admin/Nivo_Image_Slider_Admin.php:24
 msgid "Slider"
 msgstr ""
 
-#: nivo-image-slider.php:55
+#: admin/Nivo_Image_Slider_Admin.php:25
 msgid "Parent Slide:"
 msgstr ""
 
-#: nivo-image-slider.php:56
+#: admin/Nivo_Image_Slider_Admin.php:26
 msgid "All Slides"
 msgstr ""
 
-#: nivo-image-slider.php:57
+#: admin/Nivo_Image_Slider_Admin.php:27
 msgid "View Slide"
 msgstr ""
 
-#: nivo-image-slider.php:58
+#: admin/Nivo_Image_Slider_Admin.php:28
 msgid "Add New Slide"
 msgstr ""
 
-#: nivo-image-slider.php:59
+#: admin/Nivo_Image_Slider_Admin.php:29
 msgid "Add New"
 msgstr ""
 
-#: nivo-image-slider.php:60
+#: admin/Nivo_Image_Slider_Admin.php:30
 msgid "Edit Slide"
 msgstr ""
 
-#: nivo-image-slider.php:61
+#: admin/Nivo_Image_Slider_Admin.php:31
 msgid "Update Slide"
 msgstr ""
 
-#: nivo-image-slider.php:62
+#: admin/Nivo_Image_Slider_Admin.php:32
 msgid "Search Slide"
 msgstr ""
 
-#: nivo-image-slider.php:63
+#: admin/Nivo_Image_Slider_Admin.php:33
 msgid "Not found"
 msgstr ""
 
-#: nivo-image-slider.php:64
+#: admin/Nivo_Image_Slider_Admin.php:34
 msgid "Not found in Trash"
 msgstr ""
 
-#: nivo-image-slider.php:67
+#: admin/Nivo_Image_Slider_Admin.php:37
 msgid "slider"
 msgstr ""
 
-#: nivo-image-slider.php:68
-msgid "Post Type Description"
+#: admin/Nivo_Image_Slider_Admin.php:38
+msgid "Custom post for Nivo Image Slider"
 msgstr ""
 
-#: nivo-image-slider.php:97
+#: admin/Nivo_Image_Slider_Admin.php:62
 msgid "Upload Slide Image"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:68
+msgctxt "Taxonomy General Name"
+msgid "Slide Categories"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:69
+msgctxt "Taxonomy Singular Name"
+msgid "Slide Category"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:70
+msgid "Portfolio Categories"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:71
+msgid "All Slide Categories"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:72
+msgid "Parent Slide Category"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:73
+msgid "Parent Slide Category:"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:74
+msgid "New Slide Category Name"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:75
+msgid "Add New Slide Category"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:76
+msgid "Edit Slide Category"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:77
+msgid "Update Slide Category"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:78
+msgid "Separate Slide Categories with commas"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:79
+msgid "Search Slide Categories"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:80
+msgid "Add or remove Slide Categories"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:81
+msgid "Choose from the most used Slide Categories"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:82
+msgid "Not Found"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:100
+msgid "Slide Meta Box"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:163
+msgid "Slide Caption"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:168
+msgid "Write slide caption."
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:174
+msgid "Slide Transition"
+msgstr ""
+
+#: admin/Nivo_Image_Slider_Admin.php:197
+msgid "Select transition for this slide."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
@@ -95,5 +177,5 @@ msgid "Sayful Islam"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://www.sayful.net"
+msgid "http://sayful.net/"
 msgstr ""
