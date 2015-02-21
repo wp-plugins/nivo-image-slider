@@ -9,11 +9,20 @@ function all_nivo_image_slider($atts, $content=null){
     extract(shortcode_atts(array(
         'id'            =>'',
         'theme'         =>'default',
-        'category_slug' =>'all',
+        'category_slug' =>'',
     ), $atts));
 
+
+    if ($category_slug !='') {
+
+        $termname = $category_slug;
+
+    } else {
+        $termname = '';
+    }
+
 	$slider= '<div class="slider-wrapper theme-'.$theme.'"><div id="slider'.$id.'" class="nivoSlider">';
-	$efs_query= "post_type=slider&posts_per_page=-1&slide_category=$category_slug";
+	$efs_query= "post_type=slider&posts_per_page=-1&slide_category=$termname";
 	query_posts($efs_query);
 	if (have_posts()) : while (have_posts()) : the_post();
 
