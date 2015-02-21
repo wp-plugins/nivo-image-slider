@@ -3,7 +3,7 @@ Contributors: sayful
 Tags: slider, image slider, nivo slider, images, wordpress slider, jquery slider, responsive
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -106,6 +106,9 @@ Do you have questions or issues with Nivo Images Slider? [Ask for support here.]
 2. Screenshot of Nivo Images Slider on Page.
 
 == Changelog ==
+
+= version 1.3.1 =
+* Fix bug regarding previous release
 
 = version 1.3.0 =
 * Re-write with Object-oriented programming (OOP)

@@ -4,7 +4,7 @@
  * Plugin Name:       Nivo Image Slider
  * Plugin URI:        http://wordpress.org/plugins/nivo-image-slider/
  * Description:       A WordPress plugin to include image slider into your theme.
- * Version:           1.3.0
+ * Version:           1.3.1
  * Author:            Sayful Islam
  * Author URI:        http://sayful.net/
  * License:           GPL-2.0+
