@@ -103,7 +103,8 @@ Do you have questions or issues with Nivo Images Slider? [Ask for support here.]
 == Screenshots ==
 
 1. Screenshot of Nivo Images Slider Custom Post.
-2. Screenshot of Nivo Images Slider on Page.
+2. Screenshot of Nivo Images Slider Custom Post Catagory.
+3. Screenshot of Nivo Images Slider on Page.
 
 == Changelog ==
 
