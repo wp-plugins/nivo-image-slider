@@ -13,7 +13,7 @@ function all_nivo_image_slider($atts, $content=null){
     ), $atts));
 
 
-    if ($category_slug !='') {
+    if (trim($category_slug) !='') {
 
         $termname = $category_slug;
 
