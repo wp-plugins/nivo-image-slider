@@ -18,7 +18,10 @@ function all_nivo_image_slider($atts, $content=null){
         $termname = $category_slug;
 
     } else {
-        $termname = '';
+    	function all_terms(){
+    		// It is blank
+    	}
+        $termname = all_terms();
     }
 
 	$slider= '<div class="slider-wrapper theme-'.$theme.'"><div id="slider'.$id.'" class="nivoSlider">';
