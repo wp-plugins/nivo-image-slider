@@ -10,6 +10,8 @@ function all_nivo_image_slider($atts, $content=null){
         'id'            =>'',
         'theme'         =>'default',
         'category_slug' =>'',
+        'animation_speed' =>'500',
+        'pause_time' =>'3000',
     ), $atts));
 
 
@@ -31,14 +33,33 @@ function all_nivo_image_slider($atts, $content=null){
 
         $caption = get_post_meta( $post->ID, '_nivo_image_slider_caption_value', true );
         $transition = get_post_meta( $post->ID, '_nivo_image_slider_transition_value', true );
+		$slide_link = get_post_meta( $post->ID, '_nivo_image_slider_slide_link_value', true );
+        
+        if (trim($slide_link) != '') {
+
+			$slide_link = $slide_link;
+
+        } else {
+        	
+			$slide_link = '#';
+        }
+        
+		$link_target = get_post_meta( $post->ID, '_nivo_image_slider_slide_link_target_value', true );
         
 		$slider_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' );
 
-		$slider.='<img src="'.$slider_image[0].'" data-thumb="'.$slider_image[0].'" alt="" title="'.esc_textarea( $caption ).'" data-transition="'.$transition.'">';
+		$slider.='<a target="'.$link_target.'" href="'.$slide_link.'"><img src="'.$slider_image[0].'" data-thumb="'.$slider_image[0].'" alt="" title="'.esc_textarea( $caption ).'" data-transition="'.$transition.'"></a>';
 
 	endwhile; endif; wp_reset_query();
 	$slider.= '</div></div>';
-	$slider.= '<script>jQuery(window).load(function($){jQuery("#slider'.$id.'").nivoSlider();});</script>';
+	$slider.= '	<script>
+					jQuery(window).load(function($){
+						jQuery("#slider'.$id.'").nivoSlider({
+							animSpeed: '.$animation_speed.',
+							pauseTime: '.$pause_time.'
+						});
+					});
+				</script>';
 	return $slider;
 }
 endif;

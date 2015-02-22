@@ -19,23 +19,23 @@ class Nivo_Image_Slider_Admin {
 	public function custom_post_type() {
 
 		$labels = array(
-			'name'                => _x( 'Slides', 'Post Type General Name', 'nivoslider' ),
-			'singular_name'       => _x( 'Slide', 'Post Type Singular Name', 'nivoslider' ),
-			'menu_name'           => __( 'Slider', 'nivoslider' ),
-			'parent_item_colon'   => __( 'Parent Slide:', 'nivoslider' ),
-			'all_items'           => __( 'All Slides', 'nivoslider' ),
-			'view_item'           => __( 'View Slide', 'nivoslider' ),
-			'add_new_item'        => __( 'Add New Slide', 'nivoslider' ),
-			'add_new'             => __( 'Add New', 'nivoslider' ),
-			'edit_item'           => __( 'Edit Slide', 'nivoslider' ),
-			'update_item'         => __( 'Update Slide', 'nivoslider' ),
-			'search_items'        => __( 'Search Slide', 'nivoslider' ),
-			'not_found'           => __( 'Not found', 'nivoslider' ),
-			'not_found_in_trash'  => __( 'Not found in Trash', 'nivoslider' ),
+			'name'                => _x( 'Slides', 'Post Type General Name', 'nivo-image-slider' ),
+			'singular_name'       => _x( 'Slide', 'Post Type Singular Name', 'nivo-image-slider' ),
+			'menu_name'           => __( 'Slider', 'nivo-image-slider' ),
+			'parent_item_colon'   => __( 'Parent Slide:', 'nivo-image-slider' ),
+			'all_items'           => __( 'All Slides', 'nivo-image-slider' ),
+			'view_item'           => __( 'View Slide', 'nivo-image-slider' ),
+			'add_new_item'        => __( 'Add New Slide', 'nivo-image-slider' ),
+			'add_new'             => __( 'Add New', 'nivo-image-slider' ),
+			'edit_item'           => __( 'Edit Slide', 'nivo-image-slider' ),
+			'update_item'         => __( 'Update Slide', 'nivo-image-slider' ),
+			'search_items'        => __( 'Search Slide', 'nivo-image-slider' ),
+			'not_found'           => __( 'Not found', 'nivo-image-slider' ),
+			'not_found_in_trash'  => __( 'Not found in Trash', 'nivo-image-slider' ),
 		);
 		$args = array(
-			'label'               => __( 'slider', 'nivoslider' ),
-			'description'         => __( 'Custom post for Nivo Image Slider', 'nivoslider' ),
+			'label'               => __( 'slider', 'nivo-image-slider' ),
+			'description'         => __( 'Custom post for Nivo Image Slider', 'nivo-image-slider' ),
 			'labels'              => $labels,
 			'supports'            => array( 'title', 'editor', 'thumbnail', ),
 			'hierarchical'        => false,
@@ -50,7 +50,7 @@ class Nivo_Image_Slider_Admin {
 			'has_archive'         => true,
 			'exclude_from_search' => false,
 			'publicly_queryable'  => true,
-			'rewrite'             => array('slug' => 'slide',),
+			'rewrite'             => false,
 			'capability_type'     => 'page',
 		);
 		register_post_type( 'slider', $args );
@@ -59,27 +59,27 @@ class Nivo_Image_Slider_Admin {
 
 	public function post_thumbnail_image_box() {
 	    remove_meta_box( 'postimagediv', 'slider', 'side' );
-	    add_meta_box('postimagediv', __('Upload Slide Image', 'nivoslider'), 'post_thumbnail_meta_box', 'slider', 'normal', 'high');
+	    add_meta_box('postimagediv', __('Upload Slide Image', 'nivo-image-slider'), 'post_thumbnail_meta_box', 'slider', 'normal', 'high');
 	}
 	// Register Custom Taxonomy
 	public function custom_taxonomy() {
 
 	    $labels = array(
-	        'name'                       => _x( 'Slide Categories', 'Taxonomy General Name', 'nivoslider' ),
-	        'singular_name'              => _x( 'Slide Category', 'Taxonomy Singular Name', 'nivoslider' ),
-	        'menu_name'                  => __( 'Portfolio Categories', 'nivoslider' ),
-	        'all_items'                  => __( 'All Slide Categories', 'nivoslider' ),
-	        'parent_item'                => __( 'Parent Slide Category', 'nivoslider' ),
-	        'parent_item_colon'          => __( 'Parent Slide Category:', 'nivoslider' ),
-	        'new_item_name'              => __( 'New Slide Category Name', 'nivoslider' ),
-	        'add_new_item'               => __( 'Add New Slide Category', 'nivoslider' ),
-	        'edit_item'                  => __( 'Edit Slide Category', 'nivoslider' ),
-	        'update_item'                => __( 'Update Slide Category', 'nivoslider' ),
-	        'separate_items_with_commas' => __( 'Separate Slide Categories with commas', 'nivoslider' ),
-	        'search_items'               => __( 'Search Slide Categories', 'nivoslider' ),
-	        'add_or_remove_items'        => __( 'Add or remove Slide Categories', 'nivoslider' ),
-	        'choose_from_most_used'      => __( 'Choose from the most used Slide Categories', 'nivoslider' ),
-	        'not_found'                  => __( 'Not Found', 'nivoslider' ),
+	        'name'                       => _x( 'Slide Categories', 'Taxonomy General Name', 'nivo-image-slider' ),
+	        'singular_name'              => _x( 'Slide Category', 'Taxonomy Singular Name', 'nivo-image-slider' ),
+	        'menu_name'                  => __( 'Portfolio Categories', 'nivo-image-slider' ),
+	        'all_items'                  => __( 'All Slide Categories', 'nivo-image-slider' ),
+	        'parent_item'                => __( 'Parent Slide Category', 'nivo-image-slider' ),
+	        'parent_item_colon'          => __( 'Parent Slide Category:', 'nivo-image-slider' ),
+	        'new_item_name'              => __( 'New Slide Category Name', 'nivo-image-slider' ),
+	        'add_new_item'               => __( 'Add New Slide Category', 'nivo-image-slider' ),
+	        'edit_item'                  => __( 'Edit Slide Category', 'nivo-image-slider' ),
+	        'update_item'                => __( 'Update Slide Category', 'nivo-image-slider' ),
+	        'separate_items_with_commas' => __( 'Separate Slide Categories with commas', 'nivo-image-slider' ),
+	        'search_items'               => __( 'Search Slide Categories', 'nivo-image-slider' ),
+	        'add_or_remove_items'        => __( 'Add or remove Slide Categories', 'nivo-image-slider' ),
+	        'choose_from_most_used'      => __( 'Choose from the most used Slide Categories', 'nivo-image-slider' ),
+	        'not_found'                  => __( 'Not Found', 'nivo-image-slider' ),
 	    );
 	    $args = array(
 	        'labels'                     => $labels,
@@ -97,7 +97,7 @@ class Nivo_Image_Slider_Admin {
 	public function add_meta_box() {
 	    add_meta_box(
 	    	'nivo_image_slider_id', 
-	    	__( 'Slide Meta Box','nivoslider' ), 
+	    	__( 'Slide Meta Box','nivo-image-slider' ), 
 	    	array( $this, 'nivo_image_slider_meta_box_callback' ), 
 	    	'slider' 
 	    );
@@ -141,10 +141,23 @@ class Nivo_Image_Slider_Admin {
 		// Sanitize the user input.
 		$caption = sanitize_text_field( $_POST['nivo_image_slider_caption'] );
 		$transition = sanitize_text_field( $_POST['nivo_image_slider_transition'] );
+		$link_target = sanitize_text_field( $_POST['nivo_image_slider_slide_link_target'] );
+
+		if ((trim($_POST['nivo_image_slider_slide_link'])) != '') {
+
+			$slide_link = esc_url( $_POST['nivo_image_slider_slide_link'] );
+
+		} else {
+			$slide_link = esc_url(get_permalink());
+		}
+		
+		
 
 		// Update the meta field.
 		update_post_meta( $post_id, '_nivo_image_slider_caption_value', $caption );
 		update_post_meta( $post_id, '_nivo_image_slider_transition_value', $transition );
+		update_post_meta( $post_id, '_nivo_image_slider_slide_link_value', $slide_link );
+		update_post_meta( $post_id, '_nivo_image_slider_slide_link_target_value', $link_target );
 	}
 	public function nivo_image_slider_meta_box_callback( $post ) {
 	
@@ -154,24 +167,51 @@ class Nivo_Image_Slider_Admin {
 		// Use get_post_meta to retrieve an existing value from the database.
 		$caption = get_post_meta( $post->ID, '_nivo_image_slider_caption_value', true );
 		$transition = get_post_meta( $post->ID, '_nivo_image_slider_transition_value', true );
+		$slide_link = get_post_meta( $post->ID, '_nivo_image_slider_slide_link_value', true );
+		$link_target = get_post_meta( $post->ID, '_nivo_image_slider_slide_link_target_value', true );
 
         ?>
         <table class="form-table">
             <tr valign="top">
                 <th scope="row">
                     <label for="nivo_image_slider_caption">
-                        <?php _e('Slide Caption','nivoslider') ?>
+                        <?php _e('Slide Caption','nivo-image-slider') ?>
                     </label>
                 </th>
                 <td>
                     <input type="text" class="regular-text" id="nivo_image_slider_caption" name="nivo_image_slider_caption" value="<?php echo esc_attr( $caption ); ?>" style="width:100% !important">
-                    <p><?php _e('Write slide caption.','nivoslider'); ?></p>
+                    <p><?php _e('Write slide caption.','nivo-image-slider'); ?></p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <th scope="row">
+                    <label for="nivo_image_slider_slide_link">
+                        <?php _e('Slide Link','nivo-image-slider') ?>
+                    </label>
+                </th>
+                <td>
+                    <input type="text" class="regular-text" id="nivo_image_slider_slide_link" name="nivo_image_slider_slide_link" value="<?php echo esc_attr( $slide_link ); ?>" style="width:100% !important">
+                    <p><?php _e('Write slide link URL. If you want to use current slide link, just leave it blank. If you do not want any link write (#) without bracket or write desired link..','nivo-image-slider'); ?></p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <th scope="row">
+                    <label for="nivo_image_slider_slide_link_target">
+                        <?php _e('Slide Link Target','nivo-image-slider') ?>
+                    </label>
+                </th>
+                <td>
+                    <select name="nivo_image_slider_slide_link_target">
+                    	<option value="_self" <?php selected( $link_target, '_self' ); ?>>Self</option>
+                    	<option value="_blank" <?php selected( $link_target, '_blank' ); ?>>Blank</option>
+                    </select>
+                    <p><?php _e('Select Self to open the slide in the same frame as it was clicked (this is default) or select Blank open the slide in a new window or tab.','nivo-image-slider'); ?></p>
                 </td>
             </tr>
             <tr valign="top">
                 <th scope="row">
                     <label for="nivo_image_slider_transition">
-                        <?php _e('Slide Transition','nivoslider') ?>
+                        <?php _e('Slide Transition','nivo-image-slider') ?>
                     </label>
                 </th>
                 <td>
@@ -194,7 +234,7 @@ class Nivo_Image_Slider_Admin {
                         <option value="boxRainGrow" <?php selected( $transition, 'boxRainGrow' ); ?>>boxRainGrow</option>
                         <option value="boxRainGrowReverse" <?php selected( $transition, 'boxRainGrowReverse' ); ?>>boxRainGrowReverse</option>
                     </select>
-                    <p><?php _e('Select transition for this slide.','nivoslider'); ?></p>
+                    <p><?php _e('Select transition for this slide.','nivo-image-slider'); ?></p>
                 </td>
             </tr>
         </table>

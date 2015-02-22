@@ -3,7 +3,7 @@ Contributors: sayful
 Tags: slider, image slider, nivo slider, images, wordpress slider, jquery slider, responsive
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,12 @@ For example: if you want to add 'light' theme just write as following code
 
 `[all-nivoslider theme='light']`
 
+You can change Slide transition speed by adding `animation_speed=''` and giving value in millisecond.
+You can also change duration of slide showing by adding `pause_time=''` and giving value in millisecond.
+Example:
+
+`[all-nivoslider theme='light' animation_speed='500' pause_time='3000']`
+
 If you want to add multiple slider at your site you can do it from ( plugin version 1.3.0 ). To do this you must create Slide Categories when you creating  New Slide. Now you can show your slide by categories slug. So add the following parameter to your shortcode:
 
 `category_slug=''`
@@ -36,16 +42,14 @@ Set category to a comma separated list of Slide Categories Slug to only show tho
 
 = Usage - Shortcode =
 
-If you want to use multiple slider at diffrent page or post at your theme write the following code
+You can also use multiple slider at diffrent page or post at your theme write the following code
 
 `[nivo-slider][nivoslides image_link=''][/nivo-slider]`
 
-Inside [nivo-slider], you can add id="" to make it unique and you can add theme by adding theme="" and the value of theme that you can use is 'default', 'dark', 'light' or 'bar' as following
+Inside [nivo-slider], you can add id="" to make it unique and you can add theme by adding theme="" and the value of theme that you can use is 'default', 'dark', 'light' or 'bar'. Example:
 
 `[nivo-slider id='unique-1' theme='default'][/nivo-slider]`
-`[nivo-slider id='unique-2' theme='dark'][/nivo-slider]`
-`[nivo-slider id='unique-3' theme='light'][/nivo-slider]`
-`[nivo-slider id='unique-4' theme='bar'][/nivo-slider]`
+`[nivo-slider id='unique-2' theme='bar'][/nivo-slider]`
 
 Repeat "[nivoslides image_link='']" as many image as you want. Inside image_link='' put you image link like "http://lorempixel.com/400/200/sports/1/"
 
@@ -107,6 +111,12 @@ Do you have questions or issues with Nivo Images Slider? [Ask for support here.]
 3. Screenshot of Nivo Images Slider on Page.
 
 == Changelog ==
+
+= version 1.3.2 =
+* Added option to link each slide to a URL
+* Added option to open link in the same frame as it was clicked or in a new window or tab.
+* Added option to change Slide transition speed
+* Added option to change duration of slide showing
 
 = version 1.3.1 =
 * Fix bug regarding previous release
