@@ -67,7 +67,7 @@ class Nivo_Image_Slider_Admin {
 	    $labels = array(
 	        'name'                       => _x( 'Slide Categories', 'Taxonomy General Name', 'nivo-image-slider' ),
 	        'singular_name'              => _x( 'Slide Category', 'Taxonomy Singular Name', 'nivo-image-slider' ),
-	        'menu_name'                  => __( 'Portfolio Categories', 'nivo-image-slider' ),
+	        'menu_name'                  => __( 'Slide Categories', 'nivo-image-slider' ),
 	        'all_items'                  => __( 'All Slide Categories', 'nivo-image-slider' ),
 	        'parent_item'                => __( 'Parent Slide Category', 'nivo-image-slider' ),
 	        'parent_item_colon'          => __( 'Parent Slide Category:', 'nivo-image-slider' ),
